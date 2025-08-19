@@ -125,4 +125,5 @@ public class BoardAnalyticsBenchmark {
     public Map<String, Object> benchmarkOptimizedImplementation() {
         return optimizedBoardAnalyticsService.generateBoardStatistics(1L);
     }
+
 } 
